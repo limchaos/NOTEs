@@ -37,7 +37,7 @@ A small subset can be found in `/media/evan/D4655C7F24C90A64/scene_data/space_da
 
 **2.** Config part can be found in `train.py`. Modify path to your newly generated `.csv` format file, you could use tensorboard to check training log under `logdir` , `rate` is loss weight among **L1 Loss, Normal Loss and SSIM Loss**, `ssim_k` is the kernel size of **SSIM Loss**.
  
-![](/home/evan/README/imgs/depth_config.png) 
+![](./imgs/depth_config.png) 
 =
 **3.** After finish training configuration, run:
 
@@ -47,19 +47,19 @@ some visualization results would be dumped together with training checkpoints, y
 
 |** RGB Image**    |**Depth Map**|
 |---------------------|---------------------|
-|<img src="/home/evan/README/imgs/16800_rgb.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_pred.png" width="512">  |
+|<img src="./imgs/16800_rgb.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_pred.png" width="512">  |
 
 |**Normal Map**| **Error Map**|
 |---------------------|---------------------|
-|<img src="/home/evan/README/imgs/16800_norm_pred.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_err.png" width="512"> |
+|<img src="./imgs/16800_norm_pred.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_err.png" width="512"> |
 
 |**Point Cloud**| 
 |---------------------|
-|<img src="/home/evan/README/imgs/pc.png" width="512">|
+|<img src="./imgs/pc.png" width="512">|
 
 **4.** Tensorboard Visualization, run `tensorboard --logdir [path to log dir]`
 
-<img src="/home/evan/README/imgs/tensorboard.png" width="512">
+<img src="./imgs/tensorboard.png" width="512">
 =
 ## How to test
 
@@ -72,14 +72,14 @@ if you want to run inference  with vanilla `.ckpt` weights, please refer to `inf
 I did some  EDA in `pose_EDA.ipynb`, including **depth distribution, camera orientation and cameara motion**,  part of these figures was illustrated below.
 
 
-<img src="/home/evan/README/imgs/distance.png" width="512">
+<img src="./imgs/distance.png" width="512">
 =
-<img src="/home/evan/README/imgs/angel.png" width="512">
+<img src="./imgs/angel.png" width="512">
 =
 ## Converter
 This part describe how to convert `.ckpt` format  weights to `.pb` format and  `.tflite` format, for C++ deployment and mobile devices deployment, respectively.
 
-![](/home/evan/README/imgs/converter.png) 
+![](./imgs/converter.png) 
 =
 
 You need to modify the code to choose which mode you want to convert
@@ -95,5 +95,5 @@ Set `mode = tflite`, and run `python converter.py`, you could set `quantize = Tr
 
 I still think self-supervised approaches are worth to try. Like  [Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/pdf/1806.01260.pdf). Combining some MVS ideas with Deep Learning shoud also be a good try, some related work like [DeMoN: Depth and Motion Network for Learning Monocular Stereo](https://arxiv.org/pdf/1612.02401.pdf). I also attmpted to do some works in this direction, there are some draft in `corresponding.ipynb`,`bitrain.py` and `pose_train.py`. The idea is very simple, increase more constraints from two different views matching to reduce the searching space. Matching was caculated from depth map and camera localization. These data could also be used in other field, like features or camera relocaliztion.
 
-<img src="/home/evan/README/imgs/dense.jpg" width="1024">
+<img src="./imgs/dense.jpg" width="1024">
 =
