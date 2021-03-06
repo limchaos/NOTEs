@@ -1,4 +1,4 @@
-#Depth Estimation Project
+# Depth Estimation Project
 
 This is the depth estimation project, I implemented a relatively robust baseline and trained this model with around 300k pano-depth pairs on a muti-GPU server. With some optimization, this approach could infer depth map with a decent accuracy as well as efficiency, which is approximately 2 second per inference in modern mobile devices. 
 
