@@ -47,11 +47,11 @@ some visualization results would be dumped together with training checkpoints, y
 
 |** RGB Image**    |**Depth Map**|
 |---------------------|---------------------|
-|<img src="./imgs/16800_rgb.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_pred.png" width="512">  |
+|<img src="./imgs/16800_rgb.png" width="512"> | <img src="./imgs/16800_depth_pred.png" width="512">  |
 
 |**Normal Map**| **Error Map**|
 |---------------------|---------------------|
-|<img src="./imgs/16800_norm_pred.png" width="512"> | <img src="/home/evan/README/imgs/16800_depth_err.png" width="512"> |
+|<img src="./imgs/16800_norm_pred.png" width="512"> | <img src="./imgs/16800_depth_err.png" width="512"> |
 
 |**Point Cloud**| 
 |---------------------|
