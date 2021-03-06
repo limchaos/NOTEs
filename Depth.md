@@ -4,11 +4,11 @@ This is the depth estimation project, I implemented a relatively robust baseline
 
 ## Requirments
 
-Python >=3.6
-opencv-python = 3.4.2
-tqdm =  4.36.1 
-numpy = 1.17.2
-tensorflow >=2.0
+* Python >=3.6
+* opencv-python = 3.4.2
+* tqdm =  4.36.1 
+* numpy = 1.17.2
+* tensorflow >=2.0
 
 or refer to  `environment.yaml` for some other dependencies.
 ## Project Location
