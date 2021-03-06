@@ -45,7 +45,7 @@ A small subset can be found in `/media/evan/D4655C7F24C90A64/scene_data/space_da
 
 some visualization results would be dumped together with training checkpoints, you could also add more visualization methods if necessary, visualized images can always help to add new ideas.
 
-|** RGB Image**    |**Depth Map**|
+|**RGB Image**    |**Depth Map**|
 |---------------------|---------------------|
 |<img src="./imgs/16800_rgb.png" width="512"> | <img src="./imgs/16800_depth_pred.png" width="512">  |
 
