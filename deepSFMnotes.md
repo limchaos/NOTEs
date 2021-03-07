@@ -9,5 +9,17 @@
 
 [DPSNET: END-TO-END DEEP PLANE SWEEP STEREO](https://arxiv.org/pdf/1905.00538.pdf) ICLR 2019 KAIST
 
-[DeepSFM: Structure From Motion Via DeepBundle Adjustmen](https://arxiv.org/pdf/1912.09697.pdf#cite.kar2017learning) ECCV 2020 oral Fudan University
+[DeepSFM: Structure From Motion Via DeepBundle Adjustmen](https://arxiv.org/pdf/1912.09697.pdf#cite.kar2017learning) ECCV 2020 **oral** Fudan University
+
+[BA-Net: Dense Bundle Adjustment Networks](https://openreview.net/forum?id=B1gabhRcYX) ICLR 2019 **oral** SFU
+
+Some key words:
+
+3D cost volume
+
+photo-consistency
+
+geometric-consistenc
+
+
 
