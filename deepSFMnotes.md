@@ -13,6 +13,8 @@
 
 [BA-Net: Dense Bundle Adjustment Networks](https://openreview.net/forum?id=B1gabhRcYX) ICLR 2019 **oral** SFU
 
+![](./imgs/Ba-net.png)
+
 Some key words:
 
 3D cost volume
