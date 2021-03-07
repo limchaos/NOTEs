@@ -5,7 +5,7 @@ Cost volume for milti-view depth estimation: [Learning a Multi-View Stereo Machi
 
 [DeMoN: Depth and Motion Network for Learning Monocular Stereo](https://arxiv.org/pdf/1612.02401.pdf) ICCV 2017 Freiburg
 
-[MVSNet: Depth Inference forUnstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) ECCV 2018 HKUST **Long Quan**
+[MVSNet: Depth Inference forUnstructured Multi-view Stereo](https://arxiv.org/pdf/1804.02505.pdf) ECCV 2018 HKUST **Long Quan** group
 
 [DPSNET: END-TO-ENDDEEPPLANESWEEPSTEREO](https://arxiv.org/pdf/1905.00538.pdf) ICLR 2019 KAIST
 
