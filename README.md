@@ -48,16 +48,31 @@ For all supervised encoders, we refer to [VIM](https://github.com/haoqiwang/vim)
 
 ## Train
 
-'bash run.sh'
+```bash 
+export LR=2e-3 && export EPOCH=200 && WD=0 && DIR=output1
+
+mkdir -p ./checkpoint/${DIR}/con
+mkdir -p ./checkpoint/${DIR}/uncon
+
+python run.py dinov2 ${LR} ${EPOCH} ${WD} imagenet2012_train_random_200k.pkl ${DIR} #-logit -norm
+```
+or check `train.sh`.
 
 ## Evaluate
 
-'bash eval.sh'
+```bash 
+export DIR=output1
+mkdir -p ./eval/${DIR}
+
+python eval.py dinov2 ${DIR} #-logit -norm
+```
+or check `eval.sh`.
 
 ## TODO
 
 - [x] Add 2d toy data training and visualization
 - [x] Add histopathology data
+- [x] Add code for arbitrary encoder 
 
 ## Acknowledgement
 
