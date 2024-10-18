@@ -3,12 +3,19 @@
 This is the pytorch implementation for RDM, a practical method for OOD detection using diffusion models applied to image representations.
 
 <p align="center">
-  <img src="imgs/rdm.png" width="560">
+  <img src="figures/rdm.png" width="560">
 </p>
 
 ## Requirments
 
-You can also use 
+* Python >=3.7
+* pytorch-cuda = 11.8
+* scipy =  1.13.1 
+* faiss-gpu = 1.8.2
+* einops = 0.8.0
+* torchdiffeq = 0.2.4
+
+You can also use Anaconda
 
 `conda env create -f environment.yaml `
 
