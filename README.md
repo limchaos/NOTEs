@@ -3,7 +3,7 @@
 This is the pytorch implementation for RDM, a practical method for OOD detection using diffusion models applied to image representations.
 
 <p align="center">
-  <img src="figures/rdm.png" width="560">
+  <img src="imgs/rdm.png" width="560">
 </p>
 
 ## Requirments
