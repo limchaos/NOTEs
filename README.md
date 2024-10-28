@@ -1,4 +1,4 @@
-# Do Diffusion Models Know What They Don’t Know in Representation Space?
+# Some Likelihood
 
 This is the pytorch implementation for RDM, a practical method for OOD detection using diffusion models applied to image representations.
 
